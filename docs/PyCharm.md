@@ -16,5 +16,6 @@
 
 1. Django サーバーの実行 / デバッグ構成を作成(Run configure)
 2. 下記の内容で設定する。DJANGO_SETTINGS_MODULE=djangoの設定ファイルを設定する(今回は、config.settings)
-   ![run_configure.png](..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fmf%2F48p1_fhn42sct8j4399wrmgr0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_Kj1SJN%2F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202023-05-06%203.59.48.png)
+![run_configure.png](https://user-images.githubusercontent.com/79825084/236548269-ee9e5802-77d5-4030-8a63-f8ea980c539e.png)
+
 3. 設定したデバッグ構成が異常なく実行できることを確認
