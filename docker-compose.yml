@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  web:
+    container_name: my_web_api
+    build: ./container/django
+    volumes:
+      - ./src:/src
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+  db:
+    container_name: my_web_mysql
+    image: mysql:8.0
+    volumes:
+      - my-mysql-data:/var/lib/mysql
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_PORT: 3306
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: kosimaru1997
+      MYSQL_USER: kosimaru1997
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+
+volumes:
+  my-mysql-data:
