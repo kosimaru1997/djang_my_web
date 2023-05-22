@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db8d9531-41a9-46c3-becd-27eaecb5171d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/api.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container/django/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/container/django/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/controller/contact_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/controller/contact_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +21,21 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2023.1/remote_sources/-509747246/-727148301/MySQLdb/connections.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,16 +54,21 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/user/Desktop/django/djang_my_web",
+    "last_opened_file_path": "/Users/user/Desktop/django/djang_my_web/src/config/settings",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/config/settings" />
+    </key>
+  </component>
   <component name="RunManager" selected="Django Server.api">
     <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
       <deployment type="docker-image">
@@ -151,7 +171,12 @@
       <workItem from="1683306722114" duration="2241000" />
       <workItem from="1683309094212" duration="109000" />
       <workItem from="1683309564455" duration="1527000" />
-      <workItem from="1683311684547" duration="1389000" />
+      <workItem from="1683311684547" duration="4209000" />
+      <workItem from="1683317705733" duration="1234000" />
+      <workItem from="1683351562517" duration="1136000" />
+      <workItem from="1683441763024" duration="94000" />
+      <workItem from="1683444186781" duration="20000" />
+      <workItem from="1684654708382" duration="12335000" />
     </task>
     <servers />
   </component>
